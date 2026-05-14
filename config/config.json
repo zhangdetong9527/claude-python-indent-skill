@@ -1,0 +1,15 @@
+{
+  "editor": {
+    "detectIndentation": false,
+    "defaultIndentSize": 4,
+    "defaultIndentType": "space"
+  },
+  "tools": {
+    "edit": {
+      "maxLinesPerEdit": 15
+    },
+    "read": {
+      "alwaysReadFullFile": true
+    }
+  }
+}

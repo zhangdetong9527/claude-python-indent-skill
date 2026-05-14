@@ -1,0 +1,15 @@
+{
+  "commands": [
+    {
+      "name": "format-python",
+      "description": "Auto-format Python files with Ruff",
+      "command": "python -m ruff format \"${file}\" && python -m ruff check --fix \"${file}\"",
+    "runIn": "terminal",
+      "silent": true,
+      "autoRun": {
+        "on": "fileSaved",
+        "pattern": "*.py"
+      }
+    }
+  ]
+}
